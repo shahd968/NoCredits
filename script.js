@@ -41,15 +41,15 @@ const movies = [
 
 const series = [
   { title: 'Teach You a Lesson', meta: 'S1 · 10 Episodes', genre: 'Action · Drama', image: images.pulse, score: '9.2' },
-  { title: 'The Office', meta: 'S1 · 10 Episodes', genre: 'Mystery · Sci-Fi', image: images.static, score: '8.8' },
-  { title: 'The Vampire Diaries', meta: 'S3 · 6 Episodes', genre: 'Drama · Thriller', image: images.harbor, score: '8.6' },
-  { title: 'When L ife Gives You Tangerines', meta: 'S1 · 8 Episodes', genre: 'Sci-Fi · Adventure', image: images.silver, score: '8.9' },
-  { title: 'Anne With an E', meta: 'S2 · 10 Episodes', genre: 'Crime · Mystery', image: images.anne, score: '8.5' },
-  { title: 'Cukur', meta: 'S1 · 8 Episodes', genre: 'Drama · Mystery', image: images.shadow, score: '8.4' },
-  { title: 'Magic Eye', meta: 'S2 · 7 Episodes', genre: 'Sci-Fi · Drama', image: images.lantern, score: '8.7' },
-  { title: 'A Girl Named Zat', meta: 'S1 · 6 Episodes', genre: 'Crime · Thriller', image: images.bloom, score: '8.2' },
-  { title: 'Yargi', meta: 'S3 · 10 Episodes', genre: 'Sci-Fi · Mystery', image: images.rift, score: '8.9' },
-  { title: 'A Shop For Killers', meta: 'S1 · 8 Episodes', genre: 'Adventure · Drama', image: images.tide, score: '8.1' }
+  { title: 'The Office', meta: 'S1 · 6 Episodes', genre: 'Comedy · Drama', image: images.static, score: '8.8' },
+  { title: 'The Vampire Diaries', meta: 'S1 · 22 Episodes', genre: 'Drama · Sci-Fi', image: images.harbor, score: '8.6' },
+  { title: 'When L ife Gives You Tangerines', meta: 'S1 · 16 Episodes', genre: 'Drama · Family', image: images.silver, score: '8.9' },
+  { title: 'Anne With an E', meta: 'S2 · 10 Episodes', genre: 'Drama · Family', image: images.anne, score: '8.5' },
+  { title: 'Cukur', meta: 'S1 · 33 Episodes', genre: 'Drama · Crime', image: images.shadow, score: '8.4' },
+  { title: 'Magic Eye', meta: 'S1 · 15 Episodes', genre: 'Crime · Drama', image: images.lantern, score: '8.7' },
+  { title: 'A Girl Named Zat', meta: 'S1 · 31 Episodes', genre: 'Drama · Family', image: images.bloom, score: '8.2' },
+  { title: 'Yargi', meta: 'S3 · 32 Episodes', genre: 'Crime · Mystery', image: images.rift, score: '8.9' },
+  { title: 'A Shop For Killers', meta: 'S2 · 8 Episodes', genre: 'Adventure · Drama', image: images.tide, score: '8.1' }
 ]
 
 /* ---------- SVG Icons ---------- */
