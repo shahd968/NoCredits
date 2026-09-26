@@ -1,5 +1,5 @@
 const images = {
-  hero:     '14iAUJSgublOVnkymVstP2K5Vn7.jpg',
+  hero:     './14iAUJSgublOVnkymVstP2K5Vn7.jpg',
   dune:     'dckdFbD6JShS8fsP4RSPQPnWUHj.jpg',
   night:    '7kRYHH9H9PjBFwz1FprbHB2AAjI.jpg',
   neon:     '20th centery girl.webp',
