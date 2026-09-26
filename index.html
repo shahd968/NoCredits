@@ -7,10 +7,8 @@
     <title>NoCredits — Watch what moves you</title>
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%2300a6a6'/%3E%3Cpath d='M20 45V19h8l8 13V19h8v26h-8l-8-13v13z' fill='%2305090e'/%3E%3C/svg%3E" />
     <link rel="stylesheet" href="style.css" />
-    
-</head>
+  </head>
   <body>
-    
     <header class="site-header" id="siteHeader">
       <div class="header-inner">
         <a class="brand" href="#top" aria-label="NoCredits home">
@@ -29,12 +27,14 @@
           </span>
           <span class="brand-name">No<span>Credits</span></span>
         </a>
-          <nav class="main-nav" id="mainNav" aria-label="Main navigation">
-             <a class="nav-link active" href="index.html">Home</a>
-            <a class="nav-link" href="index.html">Movies</a>
-            <a class="nav-link" href="index.html">Series</a>
-              <a class="nav-link" href="my-list.html">My List</a>
-             </nav>
+
+        <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+          <a class="nav-link active" href="#top">Home</a>
+          <a class="nav-link" href="#movies">Movies</a>
+          <a class="nav-link" href="#series">Series</a>
+          <a class="nav-link" href="my-list.html">My List</a>
+        </nav>
+
         <div class="header-actions">
           <label class="search-box">
             <span class="search-icon" aria-hidden="true">
@@ -45,6 +45,7 @@
             </span>
             <input id="searchInput" type="search" placeholder="Search movies, series..." aria-label="Search movies and series" />
           </label>
+
           <div class="language-picker" id="languagePicker">
             <button class="language-button" id="languageButton" aria-label="Choose language" aria-expanded="false">
               <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
@@ -62,12 +63,14 @@
               <li><button class="language-option" type="button" data-lang="fr">Français</button></li>
             </ul>
           </div>
+
           <button class="login-button" id="loginButton">
             Log in
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
               <path d="M5 12h14M13 6l6 6-6 6"></path>
             </svg>
           </button>
+
           <button class="menu-button" id="menuButton" aria-label="Open menu" aria-expanded="false">
             <svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
               <path d="M4 7h16M4 12h16M4 17h16"></path>
@@ -76,11 +79,6 @@
         </div>
       </div>
     </header>
-
-
-
-
-  
 
     <main id="top">
       <section class="hero" aria-label="Featured title">
@@ -101,7 +99,7 @@
             <span class="rating">★ 8.9</span>
           </div>
           <p class="hero-description">
-            Fighting crime full-time as Spider-Man in a world that doesn't remember him—sparks a change in Peter Parker 
+            Fighting crime full-time as Spider-Man in a world that doesn't remember him—sparks a change in Peter Parker
             he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves.
           </p>
           <div class="hero-actions">
@@ -115,6 +113,7 @@
             </button>
           </div>
         </div>
+
         <div class="hero-counter">
           <strong>1</strong>
           <span>/ 4</span>
@@ -125,54 +124,38 @@
         </div>
       </section>
 
-
-
-
-      <!-- trending movies section -->
       <section class="content-section" id="movies">
         <div class="section-heading">
           <div>
             <span class="section-kicker">Made for you</span>
             <h2 class="section-title">Trending <em>movies</em></h2>
           </div>
-         <a class="see-all" data-target="moviesGrid" aria-expanded="false" >
-        <span>View more</span>
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M5 12h14M13 6l6 6-6 6"></path>
-         </svg>
-         </a>
+          <a class="see-all view-more-button" href="#movies" data-target="moviesGrid" aria-expanded="false">
+            <span>View more</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M13 6l6 6-6 6"></path>
+            </svg>
+          </a>
         </div>
         <div class="media-grid" id="moviesGrid"></div>
       </section>
 
-
-
-
-
-
-      
-      <!-- popular series section -->
       <section class="content-section series-section" id="series">
         <div class="section-heading">
           <div>
             <span class="section-kicker">Worth the binge</span>
             <h2 class="section-title">Popular <em>series</em></h2>
           </div>
-          <a class="see-all view-more-button"  data-target="seriesGrid" aria-expanded="false">
+          <a class="see-all view-more-button" href="#series" data-target="seriesGrid" aria-expanded="false">
             <span>View more</span>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M13 6l6 6-6 6"></path>
+            </svg>
           </a>
         </div>
         <div class="media-grid" id="seriesGrid"></div>
       </section>
 
-
-
-
-
-
-
-      <!-- explore section -->
       <section class="discover-section" id="discover">
         <div class="section-heading">
           <div>
@@ -201,19 +184,13 @@
       </section>
     </main>
 
-
-
-
-
-
-    <!-- <footer section> -->
     <footer class="site-footer">
       <div class="footer-top">
         <a class="brand" href="#top">
           <span class="brand-mark">N</span>
           <span class="brand-name">No<span>Credits</span></span>
         </a>
-        <p class="footer-tag">—Your Cinamtic escape, anytime</p>
+        <p class="footer-tag">—Your cinematic escape, anytime</p>
         <nav class="footer-links" aria-label="Footer navigation">
           <a href="#movies">Movies</a>
           <a href="#series">Series</a>
@@ -223,7 +200,7 @@
       </div>
       <div class="footer-bottom">
         <span>© 2026 NoCredits. All rights reserved.
-          <br>Designed & Devloped by: ©Shahd Tarek
+          <br>Designed & Developed by: ©Shahd Tarek
         </span>
         <div class="footer-legal">
           <a href="#top">Privacy</a>
@@ -233,18 +210,6 @@
       </div>
     </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-    <!-- toast notifications -->
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
     <div class="login-modal" id="loginModal" aria-hidden="true">
@@ -266,7 +231,7 @@
             <label for="loginCountry">Country</label>
             <select id="loginCountry" name="country" required>
               <option value="" selected disabled>Select your country</option>
-              <option value="United States">Egypt</option>
+              <option value="Egypt">Egypt</option>
               <option value="United States">United States</option>
               <option value="United Kingdom">United Kingdom</option>
               <option value="India">India</option>
@@ -275,6 +240,7 @@
               <option value="UAE">UAE</option>
             </select>
           </div>
+
           <div class="login-field">
             <label for="loginEmail">Email</label>
             <input id="loginEmail" name="email" type="email" placeholder="Enter your email" required />
@@ -284,6 +250,7 @@
         </form>
       </div>
     </div>
+
     <script type="module" src="script.js"></script>
   </body>
 </html>
