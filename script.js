@@ -48,7 +48,7 @@ const series = [
   { title: 'Cukur', meta: 'S1 · 33 Episodes', genre: 'Drama · Crime', image: images.shadow, score: '8.4' },
   { title: 'Magic Eye', meta: 'S1 · 15 Episodes', genre: 'Crime · Drama', image: images.lantern, score: '8.7' },
   { title: 'A Girl Named Zat', meta: 'S1 · 31 Episodes', genre: 'Drama · Family', image: images.bloom, score: '8.2' },
-  { title: 'Yargi', meta: 'S3 · 32 Episodes', genre: 'Crime · Mystery', image: images.rift, score: '8.9' },
+  { title: 'Yargi', meta: 'S3 · 33 Episodes', genre: 'Crime · Mystery', image: images.rift, score: '8.9' },
   { title: 'A Shop For Killers', meta: 'S2 · 8 Episodes', genre: 'Adventure · Drama', image: images.tide, score: '8.1' }
 ]
 
