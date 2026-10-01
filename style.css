@@ -805,6 +805,10 @@ h1, h2, h3, p {
   margin: 0 auto;
 }
 
+.empty-list[hidden] {
+  display: none;
+}
+
 .empty-list p {
   width: min(100%, 420px);
   color: rgba(248, 224, 194, 0.5);
